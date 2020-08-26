@@ -37,4 +37,9 @@ public class KaskoPolicy extends PolicyBase {
     public void setAge(int age) {
         this.age = age;
     }
+
+    @Override
+    public void calculatePremium() {
+        System.out.println("Calculate KASKO");
+    }
 }

@@ -27,4 +27,9 @@ public class TravelPolicy extends PolicyBase {
     public void setCountryCode(String countryCode) {
         this.countryCode = countryCode;
     }
+
+    @Override
+    public void calculatePremium() {
+        System.out.println("Calculate Travel");
+    }
 }
